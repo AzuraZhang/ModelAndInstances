@@ -51,7 +51,8 @@ Children:
       DataType: NodeId
       Value: {"IdType":0,"Id":0,"Namespace":-1}
 - Name: Object2
-  Type: Object
+  Id: g=1e2fd6cde37d0aebb03b6f779e6b2329
+  Supertype: Object
   Children:
   - Name: Speed
     Type: BaseDataVariableType
@@ -100,7 +101,106 @@ Children:
       DataType: NodeId
       Value: {"IdType":0,"Id":0,"Namespace":-1}
 - Name: Object3
-  Type: Object
+  Id: g=73b42f424bfeea52c58fcc2e652c1846
+  Supertype: Object
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Aceleration
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: AnalogVariable1
+    Type: AnalogItemType
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: EURange
+      Type: RangeType
+      DataType: EURange
+      Value: 
+       {
+        "TypeId": {
+         "Id": 884
+        },
+        "Body": {
+         "low": 0.0,
+         "high": 0.0
+        }
+       }
+      Children:
+      - Name: Low
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+      - Name: High
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+  - Name: NodePointer1
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+- Name: Object4
+  Type: Object2
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Aceleration
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: AnalogVariable1
+    Type: AnalogItemType
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: EURange
+      Type: RangeType
+      DataType: EURange
+      Value: 
+       {
+        "TypeId": {
+         "Id": 884
+        },
+        "Body": {
+         "low": 0.0,
+         "high": 0.0
+        }
+       }
+      Children:
+      - Name: Low
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+      - Name: High
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+  - Name: NodePointer1
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+- Name: Object5
+  Type: Object3
   Children:
   - Name: Speed
     Type: BaseDataVariableType
