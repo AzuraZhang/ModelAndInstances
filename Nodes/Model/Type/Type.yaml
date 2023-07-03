@@ -1,0 +1,53 @@
+Name: Type
+Type: FolderType
+Children:
+- Name: Object
+  Id: g=2b4f5a7da6c85f7671e74de36216f627
+  Supertype: BaseObjectType
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Aceleration
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: AnalogVariable1
+    Type: AnalogItemType
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: EURange
+      Type: RangeType
+      DataType: EURange
+      Value: 
+       {
+        "TypeId": {
+         "Id": 884
+        },
+        "Body": {
+         "low": 0.0,
+         "high": 0.0
+        }
+       }
+      Children:
+      - Name: Low
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+      - Name: High
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+  - Name: NodePointer1
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
