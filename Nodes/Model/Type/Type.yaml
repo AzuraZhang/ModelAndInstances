@@ -92,6 +92,12 @@ Children:
         DataType: Double
         ReferenceType: HasProperty
         Value: 0.0
+      - Name: Constrain
+        Type: BaseVariableType
+        DataType: Boolean
+        ReferenceType: HasProperty
+        ModellingRule: Optional
+        Value: true
   - Name: NodePointer1
     Type: NodePointer
     DataType: NodeId
